@@ -1,0 +1,26 @@
+{
+  "name": "test-stacktrace",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "color-scheme": "^1.0.1",
+    "convert-hex": "^0.1.0",
+    "gh-pages": "^1.2.0",
+    "moment": "^2.22.2",
+    "pixi.js": "^4.8.1",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "react-pixi-fiber": "^0.4.7",
+    "react-scripts": "1.1.4",
+    "svg.js": "^2.6.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "homepage": "http://larskarbo.github.io/demo-timezone-tool"
+}
