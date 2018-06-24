@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import { Renderer } from './napchart-canvas/lib/index.js'
-
+import { SocialIcon } from 'react-social-icons';
 import { Stage } from "react-pixi-fiber";
 
 class App extends Component {
@@ -28,10 +28,25 @@ class App extends Component {
         // top: 0,
         width: '100vw',
           height: '100vh',
-          border: 'solid 1px black'
+          // border: 'solid 1px black'
         }}
         ref={parent => this.parent = parent}
           id="pixi"></div>
+        <div style={{
+          position: 'absolute',
+          top: '230px',
+          textAlign: 'center',
+          width: '100vw'
+        }}>
+          {/* <h2>Home of</h2> */}
+          <h1>Lars Karbo</h1>
+          {/* <p>Developer | Creator</p> */}
+          <div className="social">
+            <span className="paddright"><SocialIcon url="https://www.linkedin.com/in/larskarbo/" color="#aaaaaa" /></span>
+            <SocialIcon url="https://github.com/larskarbo/" color="#aaaaaa" />
+          </div>
+          <p className="email">lars@kar.bo</p>
+          </div>
         </div>
     )
     // return (

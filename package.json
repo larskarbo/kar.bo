@@ -13,6 +13,7 @@
     "react-dom": "^16.4.0",
     "react-pixi-fiber": "^0.4.7",
     "react-scripts": "1.1.4",
+    "react-social-icons": "^3.0.0",
     "svg.js": "^2.6.5"
   },
   "scripts": {
