@@ -45,7 +45,7 @@ class App extends Component {
             <span className="paddright"><SocialIcon url="https://www.linkedin.com/in/larskarbo/" color="#aaaaaa" /></span>
             <SocialIcon url="https://github.com/larskarbo/" color="#aaaaaa" />
           </div>
-          <p className="email">lars@kar.bo</p>
+          <p className="email">mail@larskarbo.no</p>
           </div>
         </div>
     )
